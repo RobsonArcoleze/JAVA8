@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Alura\Java\Curso-Java-parte-3-Entendendo-heran-a-e-interface-capitulo6\.metadata\.plugins\org.eclipse.jdt.core
+2367783050.index
+2400108616.index
+1865797976.index

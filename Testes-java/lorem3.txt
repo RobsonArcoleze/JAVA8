@@ -1,0 +1,3 @@
+Realizando testes com escrita do Usuário!
+Tentei incluir um paragrafo com enter.
+Vou tentar sair do modo do usuário com 2 enters.

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Testes-java/src/br/com/Robson/java/io/Testes-com-Java-IO&apos; to &apos;TestesComIo&apos;" description="Rename resource &apos;Testes-com-Java-IO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/br/com/Robson/java/io/Testes-com-Java-IO" name="TestesComIo" stamp="1659139927603" updateReferences="true"/>&#x0A;&#x0A;</session>

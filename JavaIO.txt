@@ -1,0 +1,55 @@
+
+JAVA.IO
+
+---------------------------------------------------------------------------------------------------------
+
+//Código omitido
+
+public class TesteLeitura {
+
+        public static void main(String[] args) throws IOException {
+
+                //Fluxo de Entrada com Arquivo
+                InputStream fis = new FileInputStream("lorem.txt");  // O input Stream foca nos bytes, ou seja no codigo binário // UTILIZADO PARA LEITURAS DE PDF, IMAGENS ETC.
+
+               /*InputStreamReader - lê um conjunto de bytes e transforma em caractere*/
+
+                Reader isr = new InputStreamReader(fis);  //  O Reader foca nos caracteres // PARA TRABALHAR COM ARQUIVOS DE TEXTOS 
+                BufferedReader br = BufferedReader(isr);
+
+                String linha = br.readLine();
+
+                while(linha != null) {
+                        System.out.println(linha);
+                        linha = br.readLine();
+                }
+
+                System.out.println(linha);
+
+                br.close();
+        }
+}
+
+------------------------------------------------------------------------------------------------------------
+
+//Código omitido
+
+public class TesteEscrita {
+
+        public static void main(String[] args) throws IOException {
+
+                //Fluxo de Escrita com Arquivo
+
+                OutputStream fos = new FileOutputStream("lorem2.txt");
+                Writer osw = new OutputStreamWriter(fos);
+                BufferedWriter bw = new BufferedWriter(osw);
+
+                bw.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
+                bw.newLine();
+                bw.newLine();
+                bw.write("asfasdfsafdas dfs sdf asf assdß");
+
+                bw.close();
+
+        }
+}
